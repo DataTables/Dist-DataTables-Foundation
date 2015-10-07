@@ -1,0 +1,13 @@
+{
+    "css": [
+        "css/dataTables.foundation.css",
+        "css/dataTables.foundation.min.css"
+    ],
+    "js": [
+        "js/dataTables.foundation.js",
+        "js/dataTables.foundation.min.js"
+    ],
+    "src-repo": "http://github.com/DataTables/DataTablesSrc",
+    "last-sync": "07dbb4d0dfaff7a518bb30d671446ea246ca76a3",
+    "last-tag": "1.10.9"
+}
