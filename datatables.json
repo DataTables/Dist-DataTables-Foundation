@@ -7,6 +7,13 @@
         "js/dataTables.foundation.js",
         "js/dataTables.foundation.min.js"
     ],
+    "images": [
+        "images/sort_asc_disabled.png",
+        "images/sort_asc.png",
+        "images/sort_both.png",
+        "images/sort_desc_disabled.png",
+        "images/sort_desc.png"
+    ],
     "src-repo": "http://github.com/DataTables/DataTablesSrc",
     "last-sync": "95c7b80317feb7a0b45393a87178f8c16fbbc3ea",
     "last-tag": "1.10.10"
