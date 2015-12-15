@@ -4,7 +4,12 @@
     "description": "DataTables for jQuery with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "js/dataTables.foundation.js",
-        "css/dataTables.foundation.css"
+        "css/dataTables.foundation.css",
+        "images/sort_asc.png",
+        "images/sort_asc_disabled.png",
+        "images/sort_both.png",
+        "images/sort_desc.png",
+        "images/sort_desc_disabled.png"
     ],
     "main": "./js/dataTables.foundation.js",
     "keywords": [
