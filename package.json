@@ -11,7 +11,8 @@
         "images/sort_desc.png",
         "images/sort_desc_disabled.png"
     ],
-    "main": "./js/dataTables.foundation.js",
+    "main": "js/dataTables.foundation.js",
+    "style": "css/dataTables.foundation.css",
     "keywords": [
         "filter",
         "sort",
