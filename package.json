@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-zf",
-    "version": "1.10.15",
+    "version": "1.10.16",
     "description": "DataTables for jQuery with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "js/dataTables.foundation.js",
@@ -30,7 +30,7 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net": ">=1.10.9"
+        "datatables.net": "1.10.16"
     },
     "repository": {
         "type": "git",
