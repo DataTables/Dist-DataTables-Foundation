@@ -4,7 +4,8 @@
     "description": "DataTables for jQuery with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "images/*"
     ],
     "main": "js/dataTables.foundation.js",
     "style": "css/dataTables.foundation.css",
