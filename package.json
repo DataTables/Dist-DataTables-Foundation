@@ -1,33 +1,43 @@
 {
     "name": "datatables.net-zf",
+    "description": "DataTables for jQuery with styling for [Foundation](https://get.foundation/)",
+    "main": "js/dataTables.foundation.js",
+    "style": "css/dataTables.foundation.css",
     "version": "1.10.24",
-    "description": "DataTables for jQuery with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
         "images/*"
     ],
-    "main": "js/dataTables.foundation.js",
-    "style": "css/dataTables.foundation.css",
     "keywords": [
-        "filter",
-        "sort",
-        "DataTables",
+        "Foundation",
+        "Datatables",
         "jQuery",
         "table",
-        "Foundation"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net": "1.10.24"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Foundation.git"
