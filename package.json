@@ -3,6 +3,7 @@
     "description": "DataTables for jQuery with styling for [Foundation](https://get.foundation/)",
     "main": "js/dataTables.foundation.js",
     "style": "css/dataTables.foundation.css",
+    "types": "./types/dataTables.foundation.d.ts",
     "version": "1.10.24",
     "files": [
         "css/**/*.css",
