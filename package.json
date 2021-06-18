@@ -4,7 +4,7 @@
     "main": "js/dataTables.foundation.js",
     "style": "css/dataTables.foundation.css",
     "types": "./types/dataTables.foundation.d.ts",
-    "version": "1.10.25",
+    "version": "1.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
