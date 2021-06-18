@@ -1,5 +1,4 @@
-
-            # DataTables for jQuery with styling for [Foundation](https://get.foundation/)
+# DataTables for jQuery with styling for [Foundation](https://get.foundation/)
 
 This package contains distribution files required to style [DataTables library](https://datatables.net) for [jQuery](http://jquery.com/) with styling for [Foundation](https://get.foundation/).
 
