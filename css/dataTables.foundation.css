@@ -113,6 +113,22 @@ table.dataTable th.dataTables_empty {
 table.dataTable.nowrap th, table.dataTable.nowrap td {
   white-space: nowrap;
 }
+table.dataTable tr:nth-child(2n) {
+  background-color: transparent;
+}
+table.dataTable > tbody > tr {
+  background-color: transparent;
+}
+table.dataTable > tbody > tr.selected > * {
+  box-shadow: inset 0 0 0 9999px rgba(0, 137, 182, 0.9);
+  color: white;
+}
+table.dataTable > tbody > tr.even > * {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.054);
+}
+table.dataTable > tbody > tr.even.selected > * {
+  box-shadow: inset 0 0 0 9999px rgba(0, 137, 182, 0.954);
+}
 
 div.dataTables_wrapper {
   position: relative;
