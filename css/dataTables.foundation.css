@@ -120,6 +120,12 @@ table.dataTable > tbody > tr.even > * {
 table.dataTable > tbody > tr.even.selected > * {
   box-shadow: inset 0 0 0 9999px rgba(0, 137, 182, 0.954);
 }
+table.dataTable.hover > tbody > tr:hover > * {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.074);
+}
+table.dataTable.hover > tbody > tr.selected:hover > * {
+  box-shadow: inset 0 0 0 9999px rgba(0, 137, 182, 0.974);
+}
 
 div.dataTables_wrapper {
   position: relative;
