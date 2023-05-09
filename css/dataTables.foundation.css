@@ -3,7 +3,7 @@
   --dt-row-selected: 0, 137, 182;
   --dt-row-selected-text: 255, 255, 255;
   --dt-row-selected-link: 9, 10, 11;
-  --dt-row-stripe: 0, 0, 0, 0.023;
+  --dt-row-stripe: 0, 0, 0;
   --dt-row-hover: 0, 0, 0;
   --dt-column-ordering: 0, 0, 0;
 }
@@ -286,14 +286,14 @@ table.dataTable > tbody > tr.selected a {
   color: rgb(var(--dt-row-selected-link));
 }
 table.dataTable > tbody > tr.even > * {
-  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.054);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-stripe), 0.054);
 }
 table.dataTable > tbody > tr.even.selected > * {
   box-shadow: inset 0 0 0 9999px rgba(0, 137, 182, 0.954);
   box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.954);
 }
 table.dataTable.hover > tbody > tr:hover > * {
-  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.074);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-hover), 0.074);
 }
 table.dataTable.hover > tbody > tr.selected:hover > * {
   box-shadow: inset 0 0 0 9999px rgba(0, 137, 182, 0.974);
