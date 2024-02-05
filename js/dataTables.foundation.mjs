@@ -46,10 +46,12 @@ DataTable.ext.renderer.pagingButton.foundation = function (settings, buttonType,
 			clicker: li
 		};
 	}
-	else if (active) {
-		// No `a` tag for current
+	else if (active || disabled) {
+		// No `a` tag for current or disabled
 		li = $('<li>', {
-			class: 'current'
+			class: active
+				? 'current'
+				: 'disabled ' + btnClasses.join(' ')
 		}).html(content);
 
 		return {
@@ -58,13 +60,9 @@ DataTable.ext.renderer.pagingButton.foundation = function (settings, buttonType,
 		};
 	}
 
-	if (disabled) {
-		btnClasses.push('disabled');
-	}
-
 	li = $('<li>').addClass(btnClasses.join(' '));
 	var a = $('<a>', {
-		'href': disabled ? null : '#'
+		'href': '#'
 	})
 		.html(content)
 		.appendTo(li);
