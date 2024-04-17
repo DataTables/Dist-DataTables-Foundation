@@ -1,5 +1,5 @@
 /*! DataTables Foundation integration
- * ©2011-2015 SpryMedia Ltd - datatables.net/license
+ * © SpryMedia Ltd - datatables.net/license
  */
 
 import jQuery from 'jquery';
@@ -10,8 +10,7 @@ let $ = jQuery;
 
 
 /**
- * DataTables integration for Foundation. This requires Foundation 5 and
- * DataTables 1.10 or newer.
+ * DataTables integration for Foundation. This requires Foundation 5.
  *
  * This file sets the defaults and adds options to DataTables to style its
  * controls using Foundation. See https://datatables.net/manual/styling/foundation
