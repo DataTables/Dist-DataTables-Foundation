@@ -389,10 +389,10 @@ div.dt-container div.dt-layout-table > div {
   }
 }
 @media screen and (max-width: 767px) {
-  div.dt-container > div.grid-x {
+  div.dt-container > div.grid-x:not(.dt-layout-table) {
     margin-bottom: 0 !important;
   }
-  div.dt-container > div.grid-x > div.flex-container {
+  div.dt-container > div.grid-x:not(.dt-layout-table) > div.flex-container {
     display: block !important;
     text-align: center;
     margin: 5px auto;
