@@ -10,7 +10,7 @@
         <license type="expression">MIT</license>
         <tags>Foundation  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net" version="1.12.1"/>
+            <dependency id="datatables.net" version="2.3.2"/>
             <dependency id="foundation" version=">=5.0.0"/>
         </dependencies>
         <contentFiles>
@@ -22,6 +22,10 @@
         <file src="js/dataTables.foundation.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/dataTables.foundation.min.js" target="content\Scripts"/>
         <file src="js/dataTables.foundation.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/dataTables.foundation.min.mjs" target="content\Scripts"/>
+        <file src="js/dataTables.foundation.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/dataTables.foundation.mjs" target="content\Scripts"/>
+        <file src="js/dataTables.foundation.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/dataTables.foundation.css" target="content\Content"/>
         <file src="css/dataTables.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/dataTables.foundation.min.css" target="content\Content"/>
