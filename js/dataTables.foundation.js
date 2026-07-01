@@ -1,4 +1,4 @@
-/*! DataTables Foundation integration 3.0.0-beta.2
+/*! DataTables Foundation integration
  * © SpryMedia Ltd - datatables.net/license
  */
 
