@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-zf",
     "description": "DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/dataTables.foundation.js",
-    "module": "js/dataTables.foundation.mjs",
-    "style": "css/dataTables.foundation.css",
+    "main": "./js/dataTables.foundation.js",
+    "module": "./js/dataTables.foundation.mjs",
+    "style": "./css/dataTables.foundation.css",
     "types": "./types/dataTables.foundation.d.ts",
     "version": "3.0.4",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Foundation",
@@ -32,5 +31,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/DataTablesSrc.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/dataTables.foundation.d.ts",
+            "import": "./js/dataTables.foundation.mjs",
+            "default": "./js/dataTables.foundation.mjs",
+            "require": "./js/dataTables.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/dataTables.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
