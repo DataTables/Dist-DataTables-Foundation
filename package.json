@@ -35,9 +35,10 @@
     "exports": {
         ".": {
             "types": "./types/dataTables.foundation.d.ts",
+            "style": "./css/dataTables.foundation.css",
             "import": "./js/dataTables.foundation.mjs",
-            "default": "./js/dataTables.foundation.mjs",
-            "require": "./js/dataTables.foundation.js"
+            "require": "./js/dataTables.foundation.js",
+            "default": "./js/dataTables.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
